@@ -1,0 +1,24 @@
+{
+  "name": "mini-microservices",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "prettier": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuandungbrse/mini-microservices.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuandungbrse/mini-microservices/issues"
+  },
+  "homepage": "https://github.com/tuandungbrse/mini-microservices#readme"
+}
