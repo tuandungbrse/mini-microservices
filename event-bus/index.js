@@ -10,7 +10,7 @@ app.post('/events', (req, res) => {
   console.log(`new event ${event}`);
   axios.post('http://localhost:4000/events', event);
   axios.post('http://localhost:5000/events', event);
-  axios.post('http://localhost:6000/events', event);
+  axios.post('http://localhost:8888/events', event);
 
   res.send({ status: 'OK' });
 });

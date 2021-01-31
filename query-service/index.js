@@ -28,6 +28,6 @@ app.post('/events', async (req, res) => {
   res.send({});
 });
 
-app.listen(6000, () => {
-  console.log(`app running on 6000`);
+app.listen(8888, () => {
+  console.log(`app running on 8888`);
 });
