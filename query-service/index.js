@@ -24,7 +24,7 @@ app.post('/events', async (req, res) => {
     const post = posts[postId];
     post.comments.push({ id, contents });
   }
-
+  console.log(type, data);
   res.send({});
 });
 
